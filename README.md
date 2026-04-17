@@ -2,18 +2,14 @@
 
 Repositorio personal para scripts y automatizaciones relacionados con juegos.
 
-## EsclavoTrade
+## Contenido
 
-Script para consultar entregas y operaciones del mercado de Guild Wars 2.
+### [GuildWars2/](GuildWars2/)
 
-## Configuracion
+Scripts para Guild Wars 2.
 
-1. Copia `.env.example` a `.env`.
-2. Completa `GW2_API_KEY`.
-3. Si quieres enviar notificaciones, activa `DISCORD_HABILITADO=True` y define `DISCORD_WEBHOOK_URL`.
+| Script | Descripción |
+|--------|-------------|
+| [EsclavoTrade.py](GuildWars2/EsclavoTrade.py) | Monitor automático del Black Lion Trading Post. Detecta ventas y compras completadas y envía notificaciones por Discord. |
 
-## Dependencias
-
-```bash
-pip install -r requirements.txt
-```
+Consulta el [README de GuildWars2](GuildWars2/README.md) para instrucciones de uso detalladas.
